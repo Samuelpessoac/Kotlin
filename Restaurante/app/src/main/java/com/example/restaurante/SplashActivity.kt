@@ -8,6 +8,7 @@ import android.os.Looper
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        // Infla o layout da tela de pedido
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
 
